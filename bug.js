@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an issue where data wasn't syncing correctly between the client and the database.  I was using the `onValue` listener, but changes made on one client weren't immediately reflected on others.  The data was being updated in the database, but the listeners weren't triggering.
